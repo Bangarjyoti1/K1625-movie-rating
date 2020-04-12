@@ -1,0 +1,83 @@
+	.leftside, .rightside{
+	height: 325px;
+	width: 100%;
+}
+.leftside{
+	background: white;
+	background-size: cover;
+}
+.rightside{
+	background-color: white;
+}
+.centered{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	text-align: center;
+}
+.leftside .text{
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	text-align: center;
+	top: 22%;
+	left: 2%;
+	background:light yellow;
+	color: yellow;
+	font-size: 30px
+
+}
+.one{
+	float: left;
+    background-color:white;
+    color: black;
+    width: 140px;
+    height: 25px;
+    list-style: none;
+   line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    opacity: 0.9;
+}
+.row1 ul li:hover>ul{
+        display: block;
+        position: relative;
+    }
+    .row1 ul li{
+    	float: left;
+        background-color: dark black;
+        color:black;
+        width: 330px;
+        list-style: none;
+       line-height: 25px;
+        font-size: 25px;
+        text-align: center;
+        list-style: none;
+        opacity: 0.9;
+    }
+   
+.text
+{
+	height: 130px;
+}
+.one{
+	width: 300px;
+	background-color: black;
+	margin: 0px;
+}
+.row1{
+	margin-left:-39px;
+	margin-top: 2px;
+	height: 60px;
+
+}
+.a1{
+	color: white;
+}
+.u1{
+	height: 130px;
+	margin-top: 1px;
+}
+
+
